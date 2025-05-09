@@ -10,22 +10,22 @@ filter interaktif menggunakan Python yang menciptakan suasana layaknya berada di
 
 ## Progress Pertama
 
-## Fitur awal (progress)
+**Fitur awal (progress)**
 
 * **Deteksi Suara:** Mendeteksi suara teriakan dan tepuk tangan.
 * **Respons Suara:** Ketika ada suara teriakan atau tepuk tangan, filter akan membuat suara tersebut ikut bergema, seolah-olah penonton lain ikut terpengaruh.
 
-## Progres dan Masalah
+**Progres dan Masalah**
 
 * **Terlalu Responsif:** Filter saat ini terlalu sensitif, jadi kadang suara bisa tumpang tindih dan menghasilkan suara yang kacau.
 * **Lambat Responsif:** Suara filter tidak langsung berhenti ketika berhenti teriak atau tepuk tangan. Seharusnya filter suara berhenti ketika input suara berhenti, tapi masih ada delay.
 * **Background/Animasi dan Suara Dummy:** Saat ini, background/animasi dan suara yang digunakan untuk filter masih berupa placeholder (dummy) dan belum sepenuhnya terintegrasi dengan baik. Rencananya, akan ada pembaruan untuk menambahkan animasi dan suara yang lebih realistis.
 
-### Tantangan yang Dihadapi:
+**Tantangan yang Dihadapi:**
 
 * **Library Pygame:** Awalnya kami ragu pakai `pygame` untuk proyek ini karena diperbolehkan atau tidak, tapi setelah tanya ke Asisten doses, katanya nggak masalah dan boleh pakai.
 
-## Rencana Ke Depan
+**Rencana Ke Depan**
 
 * **Perbaiki Deteksi Suara:** Harus bikin filter suara lebih stabil dan nggak tumpang tindih.
 * **Hentikan Filter Suara:** Saat nggak ada suara, filter harus berhenti otomatis.
