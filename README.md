@@ -21,7 +21,10 @@ filter interaktif menggunakan Python yang menciptakan suasana layaknya berada di
 **Tantangan yang Dihadapi:**
 * **Library Pygame:** Awalnya kami ragu pakai `pygame` untuk proyek ini karena diperbolehkan atau tidak, tapi setelah tanya ke Asisten doses, katanya nggak masalah dan boleh pakai.
 
+  ## Progress kedua
+  * **Update final background dan suara:** Menambahkan animasi dan suara yang yang kami rasa sangat cocok untuk filter yang kami buat.
+
 **Rencana Ke Depan**
 * **Perbaiki Deteksi Suara:** Harus bikin filter suara lebih stabil dan nggak tumpang tindih.
 * **Hentikan Filter Suara:** Saat nggak ada suara, filter harus berhenti otomatis.
-* **Perbaiki Background/Animasi dan Suara:** Menambahkan animasi dan suara yang lebih menarik dan bukan sekadar placeholder.
+
