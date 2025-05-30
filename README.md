@@ -29,7 +29,6 @@ filter interaktif menggunakan Python yang menciptakan suasana layaknya berada di
 * **Hentikan Filter Suara:** Saat nggak ada suara, filter harus berhenti otomatis.
 
 ## Progress Ketiga (Akhir)
-Berikut ini penjelasan lengkap dari codingan proyek Anda sebagai **progress terakhir**, ditulis dengan kalimat naratif agar bisa dimasukkan langsung ke dalam README:
 
 Proyek ini merupakan aplikasi real-time berbasis Python yang menggabungkan **deteksi suara**, **deteksi gesture tangan**, dan **virtual background** untuk menciptakan efek interaktif seperti di stadion. Aplikasi memanfaatkan kamera laptop dan mikrofon internal untuk mengenali aksi pengguna, lalu menampilkan latar belakang yang sesuai dan memutar efek suara yang relevan.
 
