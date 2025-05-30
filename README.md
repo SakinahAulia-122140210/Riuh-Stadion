@@ -76,11 +76,6 @@ Proyek ini merupakan aplikasi real-time berbasis Python yang menggabungkan **det
 * Implementasi debounce untuk kestabilan interaksi.
 * Threading untuk menjalankan webcam dan mikrofon secara bersamaan.
 
----
-Berikut adalah versi revisi bagian **Instruksi Instalasi dan Penggunaan Program** yang disesuaikan dengan informasi terbaru:
-
----
-
 ## 🛠️ Instruksi Instalasi
 
 ### 1. Persyaratan Sistem
@@ -128,56 +123,6 @@ jupyter notebook
 6. Jendela kamera akan muncul dengan latar virtual.
 7. **Tekan tombol `q` pada jendela kamera untuk keluar.**
 
----
-
-## 🛠️ Instruksi Instalasi
-
-### 1. Persyaratan Sistem
-
-* Sistem operasi: Windows, Linux, atau macOS.
-* Webcam dan mikrofon internal aktif.
-* Python 3.8 atau lebih baru.
-* Jupyter Notebook telah terinstal (bisa melalui Anaconda atau `pip install notebook`).
-
-### 2. Instalasi Library yang Dibutuhkan
-
-Jalankan perintah berikut di terminal atau Jupyter Notebook cell untuk menginstal dependensi:
-
-```bash
-pip install opencv-python mediapipe numpy sounddevice pygame
-```
-
-### 3. Struktur Folder
-
-Pastikan semua file berada dalam satu folder:
-
-```
-- stadion.ipynb                # Notebook utama
-- stadion.jpg                  # Gambar latar default
-- teriak.jpg                   # Gambar saat suara keras (teriakan)
-- tepuktangan.jpg              # Gambar saat gesture tangan terdeteksi
-- teriak.wav                   # Efek suara sorakan
-- tepuktangan.wav              # Efek suara gesture tangan
-```
-
----
-
-## ▶️ Cara Menjalankan Program
-
-1. Buka terminal atau Anaconda Navigator.
-2. Arahkan ke direktori tempat file berada.
-3. Jalankan Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-4. Buka file **`stadion.ipynb`**.
-5. Jalankan seluruh sel secara berurutan.
-6. Jendela kamera akan muncul dengan latar virtual.
-7. **Tekan tombol `q` pada jendela kamera untuk keluar.**
-
----
 
 ## 📢 Cara Penggunaan Program
 
