@@ -75,3 +75,132 @@ Proyek ini merupakan aplikasi real-time berbasis Python yang menggabungkan **det
 * Pemutaran audio otomatis sesuai aksi pengguna.
 * Implementasi debounce untuk kestabilan interaksi.
 * Threading untuk menjalankan webcam dan mikrofon secara bersamaan.
+
+---
+Berikut adalah versi revisi bagian **Instruksi Instalasi dan Penggunaan Program** yang disesuaikan dengan informasi terbaru:
+
+---
+
+## 🛠️ Instruksi Instalasi
+
+### 1. Persyaratan Sistem
+
+* Sistem operasi: Windows, Linux, atau macOS.
+* Webcam dan mikrofon internal aktif.
+* Python 3.8 atau lebih baru.
+* Jupyter Notebook telah terinstal (bisa melalui Anaconda atau `pip install notebook`).
+
+### 2. Instalasi Library yang Dibutuhkan
+
+Jalankan perintah berikut di terminal atau Jupyter Notebook cell untuk menginstal dependensi:
+
+```bash
+pip install opencv-python mediapipe numpy sounddevice pygame
+```
+
+### 3. Struktur Folder
+
+Pastikan semua file berada dalam satu folder:
+
+```
+- stadion.ipynb                # Notebook utama
+- stadion.jpg                  # Gambar latar default
+- teriak.jpg                   # Gambar saat suara keras (teriakan)
+- tepuktangan.jpg              # Gambar saat gesture tangan terdeteksi
+- teriak.wav                   # Efek suara sorakan
+- tepuktangan.wav              # Efek suara gesture tangan
+```
+
+---
+
+## ▶️ Cara Menjalankan Program
+
+1. Buka terminal atau Anaconda Navigator.
+2. Arahkan ke direktori tempat file berada.
+3. Jalankan Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+4. Buka file **`stadion.ipynb`**.
+5. Jalankan seluruh sel secara berurutan.
+6. Jendela kamera akan muncul dengan latar virtual.
+7. **Tekan tombol `q` pada jendela kamera untuk keluar.**
+
+---
+
+## 🛠️ Instruksi Instalasi
+
+### 1. Persyaratan Sistem
+
+* Sistem operasi: Windows, Linux, atau macOS.
+* Webcam dan mikrofon internal aktif.
+* Python 3.8 atau lebih baru.
+* Jupyter Notebook telah terinstal (bisa melalui Anaconda atau `pip install notebook`).
+
+### 2. Instalasi Library yang Dibutuhkan
+
+Jalankan perintah berikut di terminal atau Jupyter Notebook cell untuk menginstal dependensi:
+
+```bash
+pip install opencv-python mediapipe numpy sounddevice pygame
+```
+
+### 3. Struktur Folder
+
+Pastikan semua file berada dalam satu folder:
+
+```
+- stadion.ipynb                # Notebook utama
+- stadion.jpg                  # Gambar latar default
+- teriak.jpg                   # Gambar saat suara keras (teriakan)
+- tepuktangan.jpg              # Gambar saat gesture tangan terdeteksi
+- teriak.wav                   # Efek suara sorakan
+- tepuktangan.wav              # Efek suara gesture tangan
+```
+
+---
+
+## ▶️ Cara Menjalankan Program
+
+1. Buka terminal atau Anaconda Navigator.
+2. Arahkan ke direktori tempat file berada.
+3. Jalankan Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+4. Buka file **`stadion.ipynb`**.
+5. Jalankan seluruh sel secara berurutan.
+6. Jendela kamera akan muncul dengan latar virtual.
+7. **Tekan tombol `q` pada jendela kamera untuk keluar.**
+
+---
+
+## 📢 Cara Penggunaan Program
+
+### 🎤 1. Deteksi Sorakan Melalui Suara
+
+* Pastikan mikrofon aktif dan berada dalam jarak 30–50 cm dari wajah.
+* **Atur input volume mikrofon pada rentang 30–40%** dari pengaturan sistem agar deteksi suara lebih akurat.
+![volume](https://github.com/user-attachments/assets/ef2f200c-88c8-4097-9909-a3eb8f5893dc)
+
+* Program akan merespons jika suara melebihi ambang batas (\~-20 dB).
+* Untuk memicu efek sorakan:
+
+  * Teriakkan secara **berulang dan penuh semangat**, misalnya:
+
+    > "GOAL! GOAL! GOAL!"
+  * Semakin emosional dan heboh, semakin realistis efek yang ditampilkan.
+
+### ✋ 2. Deteksi Gesture Tangan
+
+* Program mendeteksi keberadaan **tangan apa pun di depan kamera**.
+* Anda bisa mengangkat satu atau dua tangan, bertepuk tangan, atau melakukan gerakan sorakan tangan seperti mengangkat dan mengepalkan tangan.
+* Saat gesture tangan terdeteksi:
+
+  * Latar belakang akan berubah menyesuaikan kondisi penonton yang bersorak/bertepuk tangan.
+  * Efek audio tepuk tangan otomatis diputar selama tangan masih terlihat.
+* **Tidak perlu tepuk tangan secara sempurna**, karena program mendeteksi keberadaan tangan, bukan suara tepuknya.
