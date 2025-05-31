@@ -19,7 +19,7 @@ filter interaktif menggunakan Python yang menciptakan suasana layaknya berada di
 * **Background/Animasi dan Suara Dummy:** Saat ini, background/animasi dan suara yang digunakan untuk filter masih berupa placeholder (dummy) dan belum sepenuhnya terintegrasi dengan baik. Rencananya, akan ada pembaruan untuk menambahkan animasi dan suara yang lebih realistis.
 
 **Tantangan yang Dihadapi:**
-* **Library Pygame:** Awalnya kami ragu pakai `pygame` untuk proyek ini karena diperbolehkan atau tidak, tapi setelah tanya ke Asisten doses, katanya nggak masalah dan boleh pakai.
+* **Library Pygame:** Awalnya kami ragu pakai `pygame` untuk proyek ini karena diperbolehkan atau tidak, tapi setelah tanya ke Asisten dosen, katanya nggak masalah dan boleh pakai.
 
 ## Progress kedua
   * **Update final background dan suara:** Menambahkan animasi dan suara yang yang kami rasa sangat cocok untuk filter yang kami buat.
