@@ -121,6 +121,9 @@ jupyter notebook
 4. Buka file **`stadion.ipynb`**.
 5. Jalankan seluruh sel secara berurutan.
 6. Jendela kamera akan muncul dengan latar virtual.
+   
+   ![Screenshot 2025-05-31 152926](https://github.com/user-attachments/assets/4e22d63a-565c-4bef-bf87-90dbc6ce6c95)
+
 7. **Tekan tombol `q` pada jendela kamera untuk keluar.**
 
 
@@ -130,6 +133,7 @@ jupyter notebook
 
 * Pastikan mikrofon aktif dan berada dalam jarak 30–50 cm dari wajah.
 * **Atur input volume mikrofon pada rentang 30–40%** dari pengaturan sistem agar deteksi suara lebih akurat.
+  
 ![volume](https://github.com/user-attachments/assets/ef2f200c-88c8-4097-9909-a3eb8f5893dc)
 
 * Program akan merespons jika suara melebihi ambang batas (\~-20 dB).
@@ -140,6 +144,8 @@ jupyter notebook
     > "GOAL! GOAL! GOAL!"
   * Semakin emosional dan heboh, semakin realistis efek yang ditampilkan.
 
+![Screenshot 2025-05-31 152912](https://github.com/user-attachments/assets/e6e27437-7c0c-4e2d-b8db-1bb2d2f44cc0)
+
 ### ✋ 2. Deteksi Gesture Tangan
 
 * Program mendeteksi keberadaan **tangan apa pun di depan kamera**.
@@ -149,3 +155,6 @@ jupyter notebook
   * Latar belakang akan berubah menyesuaikan kondisi penonton yang bersorak/bertepuk tangan.
   * Efek audio tepuk tangan otomatis diputar selama tangan masih terlihat.
 * **Tidak perlu tepuk tangan secara sempurna**, karena program mendeteksi keberadaan tangan, bukan suara tepuknya.
+![Screenshot 2025-05-31 152808](https://github.com/user-attachments/assets/c8e001c2-63a5-4195-ad40-704006215645)
+![Screenshot 2025-05-31 152848](https://github.com/user-attachments/assets/572549f9-be5b-42cd-9f4a-a1cf5eca3ae9)
+
