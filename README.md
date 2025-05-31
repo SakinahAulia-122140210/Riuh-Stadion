@@ -155,6 +155,7 @@ jupyter notebook
   * Latar belakang akan berubah menyesuaikan kondisi penonton yang bersorak/bertepuk tangan.
   * Efek audio tepuk tangan otomatis diputar selama tangan masih terlihat.
 * **Tidak perlu tepuk tangan secara sempurna**, karena program mendeteksi keberadaan tangan, bukan suara tepuknya.
+
 ![Screenshot 2025-05-31 152808](https://github.com/user-attachments/assets/c8e001c2-63a5-4195-ad40-704006215645)
 ![Screenshot 2025-05-31 152848](https://github.com/user-attachments/assets/572549f9-be5b-42cd-9f4a-a1cf5eca3ae9)
 
